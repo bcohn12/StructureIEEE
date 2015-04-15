@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,40 +369,82 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 
 
 ]
-<sections/figs/feasibleactivation.png, id=14, 568.1225pt x 512.91624pt>
+<sections/figs/feasibleactivation.png, id=15, 568.1225pt x 512.91624pt>
 File: sections/figs/feasibleactivation.png Graphic file (type png)
 
 <use sections/figs/feasibleactivation.png>
 Package pdftex.def Info: sections/figs/feasibleactivation.png used on input lin
-e 21.
+e 23.
 (pdftex.def)             Requested size: 126.47249pt x 114.18024pt.
 
 
-./sections/methods.tex:39: LaTeX Error: Environment subfigure undefined.
+./sections/methods.tex:25: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39         \begin{subfigure}
+l.25   \caption
+               {The feasible activation set for a  three-muscle system meeti...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./sections/methods.tex:27: Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.27 \end{figure}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+./sections/methods.tex:27: LaTeX Error: \begin{document} ended by \end{figure}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./sections/methods.tex:27: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.27 \end{figure}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+
+./sections/methods.tex:41: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41         \begin{subfigure}
                               [b]{0.25\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./sections/methods.tex:39: Missing number, treated as zero.
+./sections/methods.tex:41: Missing number, treated as zero.
 <to be read again> 
                    }
-l.39         \begin{subfigure}[b]{0.25\textwidth}
+l.41         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./sections/methods.tex:39: Illegal unit of measure (pt inserted).
+./sections/methods.tex:41: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.39         \begin{subfigure}[b]{0.25\textwidth}
+l.41         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -412,66 +454,66 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-LaTeX Warning: File `HR2.png' not found on input line 40.
+LaTeX Warning: File `HR2.png' not found on input line 42.
 
 
-./sections/methods.tex:40: Package pdftex.def Error: File `HR2.png' not found.
+./sections/methods.tex:42: Package pdftex.def Error: File `HR2.png' not found.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 ...includegraphics[width=\textwidth]{HR2.png}
+l.42 ...includegraphics[width=\textwidth]{HR2.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (260.17189pt too wide) in paragraph at lines 39--41
+Overfull \hbox (260.17189pt too wide) in paragraph at lines 41--43
  [] 
  []
 
 
-./sections/methods.tex:43: LaTeX Error: \begin{figure} on input line 37 ended b
+./sections/methods.tex:45: LaTeX Error: \begin{figure} on input line 39 ended b
 y \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43         \end{subfigure}
+l.45         \end{subfigure}
                              \hspace{0.5cm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./sections/methods.tex:44: LaTeX Error: Environment subfigure undefined.
+./sections/methods.tex:46: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44         \begin{subfigure}
+l.46         \begin{subfigure}
                               [b]{0.25\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./sections/methods.tex:44: Missing number, treated as zero.
+./sections/methods.tex:46: Missing number, treated as zero.
 <to be read again> 
                    }
-l.44         \begin{subfigure}[b]{0.25\textwidth}
+l.46         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./sections/methods.tex:44: Illegal unit of measure (pt inserted).
+./sections/methods.tex:46: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.44         \begin{subfigure}[b]{0.25\textwidth}
+l.46         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -481,79 +523,79 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-LaTeX Warning: File `HR3.png' not found on input line 45.
+LaTeX Warning: File `HR3.png' not found on input line 47.
 
 
-./sections/methods.tex:45: Package pdftex.def Error: File `HR3.png' not found.
+./sections/methods.tex:47: Package pdftex.def Error: File `HR3.png' not found.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...includegraphics[width=\textwidth]{HR3.png}
+l.47 ...includegraphics[width=\textwidth]{HR3.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (260.17189pt too wide) in paragraph at lines 43--46
+Overfull \hbox (260.17189pt too wide) in paragraph at lines 45--48
  [] 
  []
 
 
-./sections/methods.tex:48: LaTeX Error: \begin{figure} on input line 37 ended b
+./sections/methods.tex:50: LaTeX Error: \begin{figure} on input line 39 ended b
 y \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48         \end{subfigure}
+l.50         \end{subfigure}
                              \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./sections/methods.tex:48: LaTeX Error: There's no line here to end.
+./sections/methods.tex:50: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48         \end{subfigure} \\
+l.50         \end{subfigure} \\
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./sections/methods.tex:49: LaTeX Error: Environment subfigure undefined.
+./sections/methods.tex:51: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49         \begin{subfigure}
+l.51         \begin{subfigure}
                               [b]{0.25\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./sections/methods.tex:49: Missing number, treated as zero.
+./sections/methods.tex:51: Missing number, treated as zero.
 <to be read again> 
                    }
-l.49         \begin{subfigure}[b]{0.25\textwidth}
+l.51         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./sections/methods.tex:49: Illegal unit of measure (pt inserted).
+./sections/methods.tex:51: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.49         \begin{subfigure}[b]{0.25\textwidth}
+l.51         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -563,66 +605,66 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-LaTeX Warning: File `HR4.png' not found on input line 50.
+LaTeX Warning: File `HR4.png' not found on input line 52.
 
 
-./sections/methods.tex:50: Package pdftex.def Error: File `HR4.png' not found.
+./sections/methods.tex:52: Package pdftex.def Error: File `HR4.png' not found.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...includegraphics[width=\textwidth]{HR4.png}
+l.52 ...includegraphics[width=\textwidth]{HR4.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (260.17189pt too wide) in paragraph at lines 49--51
+Overfull \hbox (260.17189pt too wide) in paragraph at lines 51--53
  [] 
  []
 
 
-./sections/methods.tex:53: LaTeX Error: \begin{figure} on input line 37 ended b
+./sections/methods.tex:55: LaTeX Error: \begin{figure} on input line 39 ended b
 y \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53         \end{subfigure}
+l.55         \end{subfigure}
                              \hspace{0.5cm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./sections/methods.tex:54: LaTeX Error: Environment subfigure undefined.
+./sections/methods.tex:56: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54         \begin{subfigure}
+l.56         \begin{subfigure}
                               [b]{0.25\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./sections/methods.tex:54: Missing number, treated as zero.
+./sections/methods.tex:56: Missing number, treated as zero.
 <to be read again> 
                    }
-l.54         \begin{subfigure}[b]{0.25\textwidth}
+l.56         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./sections/methods.tex:54: Illegal unit of measure (pt inserted).
+./sections/methods.tex:56: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.54         \begin{subfigure}[b]{0.25\textwidth}
+l.56         \begin{subfigure}[b]{0.25\textwidth}
                                                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -632,93 +674,93 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-LaTeX Warning: File `HR5.png' not found on input line 55.
+LaTeX Warning: File `HR5.png' not found on input line 57.
 
 
-./sections/methods.tex:55: Package pdftex.def Error: File `HR5.png' not found.
+./sections/methods.tex:57: Package pdftex.def Error: File `HR5.png' not found.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 ...includegraphics[width=\textwidth]{HR5.png}
+l.57 ...includegraphics[width=\textwidth]{HR5.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (260.17189pt too wide) in paragraph at lines 53--56
+Overfull \hbox (260.17189pt too wide) in paragraph at lines 55--58
  [] 
  []
 
 
-./sections/methods.tex:58: LaTeX Error: \begin{figure} on input line 37 ended b
+./sections/methods.tex:60: LaTeX Error: \begin{figure} on input line 39 ended b
 y \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58         \end{subfigure}
+l.60         \end{subfigure}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Float too large for page by 1480.90704pt on input line 60.
+LaTeX Warning: Float too large for page by 1480.90704pt on input line 62.
 
 
-LaTeX Warning: File `uniform.png' not found on input line 81.
+LaTeX Warning: File `uniform.png' not found on input line 83.
 
 
-./sections/methods.tex:81: Package pdftex.def Error: File `uniform.png' not fou
+./sections/methods.tex:83: Package pdftex.def Error: File `uniform.png' not fou
 nd.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...raphics[width=0.25\textwidth]{uniform.png}
+l.83 ...raphics[width=0.25\textwidth]{uniform.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation `Marsaglia' on page 2 undefined on input line 96.
+LaTeX Warning: Citation `Marsaglia' on page 2 undefined on input line 98.
 
 
-LaTeX Warning: Citation `Robertson' on page 2 undefined on input line 107.
+LaTeX Warning: Citation `Robertson' on page 2 undefined on input line 109.
 
 [2 <./sections/figs/feasibleactivation.png>]
 
-./sections/methods.tex:113: LaTeX Error: Environment subfigure undefined.
+./sections/methods.tex:115: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113         \begin{subfigure}
+l.115         \begin{subfigure}
                                [b]{0.25\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./sections/methods.tex:113: Missing number, treated as zero.
+./sections/methods.tex:115: Missing number, treated as zero.
 <to be read again> 
                    }
-l.113         \begin{subfigure}[b]{0.25\textwidth}
+l.115         \begin{subfigure}[b]{0.25\textwidth}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./sections/methods.tex:113: Illegal unit of measure (pt inserted).
+./sections/methods.tex:115: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.113         \begin{subfigure}[b]{0.25\textwidth}
+l.115         \begin{subfigure}[b]{0.25\textwidth}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -728,67 +770,67 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-LaTeX Warning: File `somebasis.png' not found on input line 114.
+LaTeX Warning: File `somebasis.png' not found on input line 116.
 
 
-./sections/methods.tex:114: Package pdftex.def Error: File `somebasis.png' not 
+./sections/methods.tex:116: Package pdftex.def Error: File `somebasis.png' not 
 found.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...graphics[width=\textwidth]{somebasis.png}
+l.116 ...graphics[width=\textwidth]{somebasis.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (260.17189pt too wide) in paragraph at lines 113--115
+Overfull \hbox (260.17189pt too wide) in paragraph at lines 115--117
  [] 
  []
 
 
-./sections/methods.tex:117: LaTeX Error: \begin{figure} on input line 111 ended
+./sections/methods.tex:119: LaTeX Error: \begin{figure} on input line 113 ended
  by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117               \end{subfigure}
+l.119               \end{subfigure}
                                     \hspace{0.5cm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./sections/methods.tex:118: LaTeX Error: Environment subfigure undefined.
+./sections/methods.tex:120: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118         \begin{subfigure}
+l.120         \begin{subfigure}
                                [b]{0.25\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./sections/methods.tex:118: Missing number, treated as zero.
+./sections/methods.tex:120: Missing number, treated as zero.
 <to be read again> 
                    }
-l.118         \begin{subfigure}[b]{0.25\textwidth}
+l.120         \begin{subfigure}[b]{0.25\textwidth}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./sections/methods.tex:118: Illegal unit of measure (pt inserted).
+./sections/methods.tex:120: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.118         \begin{subfigure}[b]{0.25\textwidth}
+l.120         \begin{subfigure}[b]{0.25\textwidth}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -798,52 +840,52 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-LaTeX Warning: File `orthobasis.png' not found on input line 119.
+LaTeX Warning: File `orthobasis.png' not found on input line 121.
 
 
-./sections/methods.tex:119: Package pdftex.def Error: File `orthobasis.png' not
+./sections/methods.tex:121: Package pdftex.def Error: File `orthobasis.png' not
  found.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 ...raphics[width=\textwidth]{orthobasis.png}
+l.121 ...raphics[width=\textwidth]{orthobasis.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (260.17189pt too wide) in paragraph at lines 117--120
+Overfull \hbox (260.17189pt too wide) in paragraph at lines 119--122
  [] 
  []
 
 
-./sections/methods.tex:122: LaTeX Error: \begin{figure} on input line 111 ended
+./sections/methods.tex:124: LaTeX Error: \begin{figure} on input line 113 ended
  by \end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122       \end{subfigure}
+l.124       \end{subfigure}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Float too large for page by 405.72943pt on input line 124.
+LaTeX Warning: Float too large for page by 405.72943pt on input line 126.
 
 
-LaTeX Warning: Citation `Lovasz' on page 3 undefined on input line 128.
+LaTeX Warning: Citation `Lovasz' on page 3 undefined on input line 130.
 
 
-LaTeX Warning: Citation `Emiris' on page 3 undefined on input line 130.
+LaTeX Warning: Citation `Emiris' on page 3 undefined on input line 132.
 
 
-LaTeX Warning: Citation `Ge' on page 3 undefined on input line 132.
+LaTeX Warning: Citation `Ge' on page 3 undefined on input line 134.
 
 [3]) (./sections/results.tex) (./sections/discussion.tex)
 Missing character: There is no Ò in font ptmr7t!
@@ -866,11 +908,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3188 strings out of 493117
- 46160 string characters out of 6135433
- 113579 words of memory out of 5000000
+ 3190 strings out of 493117
+ 46173 string characters out of 6135433
+ 113581 words of memory out of 5000000
  6558 multiletter control sequences out of 15000+600000
- 66564 words of font info for 146 fonts, out of 8000000 for 9000
+ 68767 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,26p,1163b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -883,11 +925,12 @@ exlive/2014/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2
 f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/font
 s/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw
 /times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utm
-r8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ./root.pdf (5 pages, 159550 bytes).
+bi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ./root.pdf (5 pages, 169210 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

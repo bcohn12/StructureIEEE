@@ -5,10 +5,10 @@
 
 
 \subsection{Hit-and-Run}
-The boundaries of the convex polytope defining the feasible activation set are defined by the mechanics of the limb and the constraints of the task, as is described in Subsection \ref{ss:finger}. The goal of the Hit-and-Run algorithm is to uniformly sample  a convex body $K$ \cite{smith1984efficient}. 
+The boundaries of the convex polytope defining the feasible activation set are defined by the mechanics of the limb and the constraints of the task, as is described in Subsection \ref{ss:finger}. The goal of the Hit-and-Run algorithm is to uniformly sample  a convex body \cite{smith1984efficient}. 
 In the case of a schematic tendon-driven limb with three muscles, the feasible activations start out being the positive unit cube (as muscles can only be activated positively from 0 to a maximal normalized value of 1). As explained in \cite{Valero-Cuevas2009mathematical}, that the feasible activation set for a given static force vector produced at the endpoint of the limb is further reduced by the addition of task constraints  in the form of equality or inequality constraints that define the direction and desired magnitude of the force. Thus if this simple limb is meeting one equality constraint, the feasible activation set os the polygon $P$ containing all feasible activation  $\textbf{a} \in \mathbb{R}^n$ that satisfy
 \[\textbf{f} = A\textbf{a}, \textbf{a} \in [0,1]^n,\]
-where $\textbf{f} \in \mathbb{R}^m$ is a fixed force vector and $A = J^{-T}RF_m \in \mathbb{R}^{m \times n}$---the matrices of the Jacobian of the limb, the moment arms of the tendons, and the strengths of the muscles, respectively \cite{Valero-Cuevas1998Large}. $P$ is bounded by the unit $n$-cube since all variables $a_i$, $i \in [n]$ are bounded by 0 and 1 from below, above respectively.
+where $\textbf{f} \in \mathbb{R}^m$ is a fixed force vector and $A = J^{-T}RF_m \in \mathbb{R}^{m \times n}$---the matrices of the Jacobian of the limb, the moment arms of the tendons, and the strengths of the muscles, respectively \cite{Valero-Cuevas1998Large,Valero-Cuevas2009mathematical}. $P$ is bounded by the unit $n$-cube since all variables $a_i$, $i \in [n]$ are bounded by 0 and 1 from below, above respectively.
 Consider the following $1 \times 3$ fabricated example.
 \begin{align*}
 &1 = \frac{10}{3}a_1 - \frac{53}{15}a_2 + 2a_3 \\
@@ -17,10 +17,12 @@ Consider the following $1 \times 3$ fabricated example.
 the set of feasible activations is given by the shaded set in Figure \ref{fig_hr}.
 
 \begin{figure}[ht]
+  %\sidecaption
+\end{figure}
    \begin{center}
     \includegraphics[width=0.25\textwidth]{sections/figs/feasibleactivation.png}
   \end{center}
-  \caption{Feasible Activation}
+  \caption{The feasible activation set for a  three-muscle system meeting one functional constraint is a polygon in $\mathbb{R}^3$. Note that muscle activations are assumed to be bounded between $0$ and $1$.}
   \label{fig_hr}
 \end{figure}
 
@@ -168,5 +170,4 @@ We began with an index finger of a healthy human (male) right hand, which was ta
 The moment arm matrix, $R$, which contains the leverage of each tendon's insertion points across each joint, was measured by doing [], [] ,and then [].
 The Jacobian, $J$, which represents the effect of rotation at each DOF on each component of endpoint wrench [cite jacobian usage], was measured with a [], by [], with precision of $\pm x$.
 The force-naught vector, $F_0$, which contains the tendon force at maximal isometric contration (MIC)[cite method used] for each muscle, was taken in the [same or different] posture, with a [] measuring device, with precision of $\pm x$.
-
 
