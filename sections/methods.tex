@@ -7,7 +7,7 @@ The boundaries of the convex polytope defining the feasible activation set are d
 In the case of a schematic tendon-driven limb with three muscles, the feasible activation space is the unit cube (as muscles can only be activated positively from 0 to a maximal normalized value of 1). As explained in \cite{Valero-Cuevas2009mathematical}, when task constraints are introduced to the system, the feasible activation set is further reduced; in this context, a task is a static force vector produced at the endpoint of the limb, which is represented as a set of inequality constraints. Thus if this simple limb meets all constraints, the feasible activation set of the polygon $P$ contains all feasible activation  $\textbf{a} \in \mathbb{R}^n$ that satisfy
 \[\textbf{f} = A\textbf{a}, \textbf{a} \in [0,1]^n,\]
 where $\textbf{f} \in \mathbb{R}^m$ is a fixed force vector and $A = J^{-T}RF_o \in \mathbb{R}^{m \times n}$---the matrices of the Jacobian of the limb, the moment arms of the tendons, and the strengths of the muscles, respectively \cite{Valero-Cuevas1998Large,Valero-Cuevas2009mathematical}. $P$ is bounded by the unit $n$-cube since all variables $a_i$, $i \in [n]$ are bounded by 0 and 1 from below, above respectively.
-Consider the following $1 \times 3$ fabricated example.
+Consider the following $1 \times 3$ fabricated example, where the task is a 1N unidimensional force.
 \begin{align*}
 &1 = \frac{10}{3}a_1 - \frac{53}{15}a_2 + 2a_3 \\
 &a_1, a_2, a_3 \in [0,1],
@@ -26,9 +26,9 @@ the set of feasible activations is given by the shaded set in Figure \ref{fig:fi
 The Hit-and-Run walk on $P$ is defined as follows (it works analogously for any convex body). 
 \begin{enumerate}
 \item Inner Point: Find a given starting point $\textbf{p}$ of $P$ (Figure \ref{fig:hitruncube}(a)) .
-\item Direction: Generate a random direction through $\textbf{p}$ (uniformly at random over all directions) (Figure \ref{fig:hitruncube}(b)).
-\item Endpoints: Find the intersection points of the random direction with the $n$-unit cube (Figure \ref{fig:hitruncube}(c)).
-\item New Point: Choose the next point of the sampling algorithm uniformly at random from the segment of the line in $P$ (Figure \ref{fig:hitruncube}(d)). 
+\item Direction: Generate a random direction from $\textbf{p}$ (uniformly at random over all directions) (Figure \ref{fig:hitruncube}(b)).
+\item Endpoints: Find the intersection points of the random direction with the edges of the polytope (Figure \ref{fig:hitruncube}(c)).
+\item New Point: Choose the next point by picking a random point along the line $P$ (Figure \ref{fig:hitruncube}(d)). 
 \item Repeat from $(b)$ the above steps with the new point as the starting point .
 \end{enumerate}
 
