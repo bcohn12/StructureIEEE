@@ -1,8 +1,6 @@
-\section{Materials and Methods}
+\section{METHODS}
 
 \subsection{Polytope representation of the feasible activation space}
-
-
 
 \subsection{Hit-and-Run}
 The boundaries of the convex polytope defining the feasible activation set are defined by the mechanics of the limb and the constraints of the task, as is described in Subsection \ref{ss:finger}. The goal of the Hit-and-Run algorithm is to uniformly sample  a convex body \cite{smith1984efficient}. 
@@ -48,7 +46,7 @@ we only need to find a feasible activation vector. For the Hit-and-Run algorithm
 \end{equation}
 
 How many steps are necessary to reach a uniformly at random point in the polytope? For convex polygons in higher dimensions c. $40$, experimental results suggest that $\mathcal{O}(n)$ steps of the Hit-and-Run algorithm are sufficient. In particular Emiris and Fisikopoulos paper suggest that $(10 + 10\frac{n})n$ steps are enough to have a close to uniform distribution \cite{emiris2013efficient}.
-In the index finger model we executed the Hit-and-Run algorithm $100,000$ times.
+In the index finger model we executed the Hit-and-Run algorithm $1,000,000$ times.
 
 \subsection{Realistic index finger model}
 \label{ss:finger}
@@ -60,10 +58,4 @@ We used our published model in \cite{Valero-Cuevas1998Large} to find matrix $A \
 \label{fig:finger}
 \end{figure}
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=1.0\textwidth]{sections/figs/raw_histograms.png}
-\caption{Spatial distribution of muscle activations in the 7-dimensional feasible activation set to produce force in the palmar direction.}
-\label{fig:raw_histograms.png}
-\end{figure}
 
