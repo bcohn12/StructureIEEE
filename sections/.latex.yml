@@ -1,2 +1,3 @@
 # In .latex.yml
 compiler: xelatex
+root_file: root.tex
