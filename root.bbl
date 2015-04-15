@@ -23,11 +23,10 @@ R.D. Crowninshield and R.A. Brand.
   locomotion.
 \newblock {\em Journal of Biomechanics}, 14(11):793--801, 1981.
 
-\bibitem{davella2005shared}
-Andrea d'Avella and Emilio Bizzi.
-\newblock Shared and specific muscle synergies in natural motor behaviors.
-\newblock {\em Proceedings of the National Academy of Sciences of the United
-  States of America}, 102(8):3076--3081, 2005.
+\bibitem{emiris2013efficient}
+Ioannis~Z Emiris and Vissarion Fisikopoulos.
+\newblock Efficient random-walk methods for approximating polytope volume.
+\newblock {\em arXiv preprint arXiv:1312.2873}, 2013.
 
 \bibitem{higginson2005simulated}
 JS~Higginson, RR~Neptune, and FC~Anderson.
@@ -40,12 +39,6 @@ Valero-Cuevas~F. J., Cohn~B. A., Yngvason~H. F., and Lawrence~E. L.
 \newblock Exploring the high-dimensional structure of muscle redundancy via
   subject-specific and generic musculoskeletal models.
 \newblock {\em J Biomech}, In press, 2015.
-
-\bibitem{krishnamoorthy2003muscle}
-Vijaya Krishnamoorthy, Simon Goodman, Vladimir Zatsiorsky, and Mark~L Latash.
-\newblock Muscle synergies during shifts of the center of pressure by standing
-  persons: identification of muscle modes.
-\newblock {\em Biological cybernetics}, 89(2):152--161, 2003.
 
 \bibitem{kutch2011muscle}
 Jason~J Kutch and Francisco~J Valero-Cuevas.
