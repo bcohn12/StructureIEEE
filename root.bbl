@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+
+\bibitem{avis1992Pivoting}
+D.~Avis and K.~Fukuda.
+\newblock A pivoting algorithm for convex hulls and vertex enumeration of
+  arrangements and polyhedra.
+\newblock {\em Discrete \& Computational Geometry}, 8(3):295--313, 1992.
+
+\bibitem{Chao1978Graphical}
+E~Y Chao and K~N An.
+\newblock Graphical interpretation of the solution to the redundant problem in
+  biomechanics.
+\newblock {\em Journal of Biomechanical Engineering}, 100:159--67, 1978.
+
+\bibitem{Clewley2008Estimating}
+R.~H. Clewley, J.~M. Guckenheimer, and F.~J. Valero-Cuevas.
+\newblock {{E}stimating effective degrees of freedom in motor systems}.
+\newblock {\em IEEE Trans Biomed Eng}, 55:430--442, Feb 2008.
+
+\bibitem{crowninshield1981physiologically}
+R.D. Crowninshield and R.A. Brand.
+\newblock A physiologically based criterion of muscle force prediction in
+  locomotion.
+\newblock {\em Journal of Biomechanics}, 14(11):793--801, 1981.
+
+\bibitem{davella2005shared}
+Andrea d'Avella and Emilio Bizzi.
+\newblock Shared and specific muscle synergies in natural motor behaviors.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 102(8):3076--3081, 2005.
+
+\bibitem{higginson2005simulated}
+JS~Higginson, RR~Neptune, and FC~Anderson.
+\newblock Simulated parallel annealing within a neighborhood for optimization
+  of biomechanical systems.
+\newblock {\em Journal of biomechanics}, 38(9):1938--1942, 2005.
+
+\bibitem{Valero-Cuevas2015high-dimensional}
+Valero-Cuevas~F. J., Cohn~B. A., Yngvason~H. F., and Lawrence~E. L.
+\newblock Exploring the high-dimensional structure of muscle redundancy via
+  subject-specific and generic musculoskeletal models.
+\newblock {\em J Biomech}, In press, 2015.
+
+\bibitem{krishnamoorthy2003muscle}
+Vijaya Krishnamoorthy, Simon Goodman, Vladimir Zatsiorsky, and Mark~L Latash.
+\newblock Muscle synergies during shifts of the center of pressure by standing
+  persons: identification of muscle modes.
+\newblock {\em Biological cybernetics}, 89(2):152--161, 2003.
+
+\bibitem{kutch2011muscle}
+Jason~J Kutch and Francisco~J Valero-Cuevas.
+\newblock Muscle redundancy does not imply robustness to muscle dysfunction.
+\newblock {\em Journal of biomechanics}, 44(7):1264--1270, 2011.
+
+\bibitem{kutch2012challenges}
+Jason~J Kutch and Francisco~J Valero-Cuevas.
+\newblock Challenges and new approaches to proving the existence of muscle
+  synergies of neural origin.
+\newblock {\em PLoS computational biology}, 8(5):e1002434, 2012.
+
+\bibitem{Prilutsky2000Muscle}
+B.~I. Prilutsky.
+\newblock Muscle coordination: the discussion continues.
+\newblock {\em Motor Control}, 4(1):97--116, 2000.
+\newblock 0 1087-1640 Journal article.
+
+\bibitem{scott2004optimal}
+Stephen~H Scott.
+\newblock Optimal feedback control and the neural basis of volitional motor
+  control.
+\newblock {\em Nature Reviews Neuroscience}, 5(7):532--546, 2004.
+
+\bibitem{smith1984efficient}
+Robert~L Smith.
+\newblock Efficient monte carlo procedures for generating points uniformly
+  distributed over bounded regions.
+\newblock {\em Operations Research}, 32(6):1296--1308, 1984.
+
+\bibitem{sohn2013cat_bounding_box}
+M~Hongchul Sohn, J~Lucas McKay, and Lena~H Ting.
+\newblock Defining feasible bounds on muscle activation in a redundant
+  biomechanical task: practical implications of redundancy.
+\newblock {\em Journal of biomechanics}, 46(7):1363--1368, 2013.
+
+\bibitem{todorov2002optimal}
+Emanuel Todorov and Michael~I Jordan.
+\newblock Optimal feedback control as a theory of motor coordination.
+\newblock {\em Nature neuroscience}, 5(11):1226--1235, 2002.
+
+\bibitem{Valero-Cuevas2009mathematical}
+F.~J. Valero-Cuevas.
+\newblock {{A} mathematical approach to the mechanical capabilities of limbs
+  and fingers}.
+\newblock {\em Adv. Exp. Med. Biol.}, 629:619--633, 2009.
+
+\bibitem{Valero-Cuevas1998Large}
+F.~J. Valero-Cuevas, F.~E. Zajac, and C.~G. Burgar.
+\newblock {{L}arge index-fingertip forces are produced by subject-independent
+  patterns of muscle excitation}.
+\newblock {\em J Biomech}, 31:693--703, Aug 1998.
+
+\end{thebibliography}
