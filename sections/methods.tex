@@ -32,6 +32,15 @@ The Hit-and-Run walk on $P$ is defined as follows (it works analogously for any 
 \item Repeat from $(b)$ the above steps with the new point as the starting point .
 \end{enumerate}
 
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=7.5cm\textwidth]{sections/figs/hitruncube.png}
+\caption{My Nice Figure.}
+\label{fig:hitruncube}
+\end{figure}
+
+
 To find a starting point in 
 \[\textbf{f} = A\textbf{a}, \textbf{a} \in [0,1]^n,\]
 we only need to find a feasible activation vector. For the Hit-and-Run algorithm to mix faster, we do not want the starting point to be in a vertex of the activation space. We use the following standard trick with slack variables $\epsilon_i$.
