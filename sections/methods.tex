@@ -28,8 +28,8 @@ The Hit-and-Run walk on $P$ is defined as follows (it works analogously for any 
 \item Inner Point: Find a given starting point $\textbf{p}$ of $P$ (Figure \ref{fig:hitruncube}(a)) .
 \item Direction: Generate a random direction from $\textbf{p}$ (uniformly at random over all directions) (Figure \ref{fig:hitruncube}(b)).
 \item Endpoints: Find the intersection points of the random direction with the edges of the polytope (Figure \ref{fig:hitruncube}(c)).
-\item New Point: Choose the next point by picking a random point along the line $P$ (Figure \ref{fig:hitruncube}(d)). 
-\item Repeat from $(b)$ the above steps with the new point as the starting point .
+\item New Point: Pick a random distance along the line formed by the endpoints (Figure \ref{fig:hitruncube}(d)). 
+\item Repeat from $(a)$ the above steps with the new point as the starting point .
 \end{enumerate}
 
 
@@ -43,7 +43,7 @@ The Hit-and-Run walk on $P$ is defined as follows (it works analogously for any 
 
 To find a starting point in 
 \[\textbf{f} = A\textbf{a}, \textbf{a} \in [0,1]^n,\]
-we only need to find a feasible activation vector. For the Hit-and-Run algorithm to mix faster, we do not want the starting point to be in a vertex of the activation space. We use the following standard trick with slack variables $\epsilon_i$.
+we only need to find a feasible activation vector. For the Hit-and-Run algorithm to mix faster, we want the starting point to be centrally located within the polytope. We use the following standard trick with slack variables $\epsilon_i$.
 
 \begin{equation}\label{eq:LP_r}
 \begin{array}{lrcl}
@@ -59,7 +59,7 @@ In the index finger model we executed the Hit-and-Run algorithm $1,000,000$ time
 
 \subsection{Realistic index finger model}
 \label{ss:finger}
-We used our published model in \cite{Valero-Cuevas1998Large} to find matrix $A \in \mathbb{R}^{4 \times 7}$, where $\textbf{a} \in \mathbb{R}^7$ and the four degrees of freedom were ad-abduction and flexion-extension at the metacarpophalangeal joint, and flexion-extension at the proximal and distal interphalangeal joints. The force direction we simulated is that in the palmar direction in the posture shown in Figure \ref{fig:finger}.
+We used our published model in \cite{Valero-Cuevas1998Large} to find matrix $A \in \mathbb{R}^{4 \times 7}$, where $\textbf{a} \in \mathbb{R}^7$ and the four degrees of freedom were ad-abduction, flexion-extension at the metacarpophalangeal joint, and flexion-extension at the proximal and distal interphalangeal joints. The force direction we simulated is in the palmar direction in the posture shown in Figure \ref{fig:finger}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=7.5cm\textwidth]{sections/figs/finger.pdf}
