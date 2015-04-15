@@ -89,7 +89,7 @@
         <attribute name="showpdfthumbnails" type="bool">0</attribute>
         <attribute name="selectedcontrolstab" type="int16">0</attribute>
         <attribute name="maxoutlinedepth" type="int16">7</attribute>
-        <attribute name="logoutputlevel" type="int16">0</attribute>
+        <attribute name="logoutputlevel" type="int16">2</attribute>
         <attribute name="editorwidth" type="float">1209</attribute>
         <attribute name="controlswidth" type="float">220</attribute>
         <attribute name="consoleview" type="int16">0</attribute>
@@ -194,12 +194,12 @@
         <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
     </object>
     <object type="TEXFILE" id="z111">
-        <attribute name="visiblerect" type="string">{{0, 647}, {1209, 569}}</attribute>
-        <attribute name="cursor" type="string">{2309, 2484}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 649}, {1209, 645}}</attribute>
+        <attribute name="cursor" type="string">{2309, 0}</attribute>
         <attribute name="wasopen" type="bool">2</attribute>
-        <attribute name="lasteditdate" type="date">450769572.53239297866821289062</attribute>
+        <attribute name="lasteditdate" type="date">450769753.81633597612380981445</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">450769604.59825801849365234375</attribute>
+        <attribute name="fileloaddate" type="date">450769755.47576898336410522461</attribute>
         <attribute name="extension" type="string">tex</attribute>
         <attribute name="sortindex" type="int32">6</attribute>
         <attribute name="name" type="string">root.tex</attribute>
