@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 22:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 22:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,22 +381,6 @@ Package pdftex.def Info: sections/figs/feasibleactivation.png used on input lin
 e 20.
 (pdftex.def)             Requested size: 126.47249pt x 114.18024pt.
 
-
-LaTeX Warning: Reference `fig:hitruncube' on page 2 undefined on input line 28.
-
-
-
-LaTeX Warning: Reference `fig:hitruncube' on page 2 undefined on input line 29.
-
-
-
-LaTeX Warning: Reference `fig:hitruncube' on page 2 undefined on input line 30.
-
-
-
-LaTeX Warning: Reference `fig:hitruncube' on page 2 undefined on input line 31.
-
-
 <sections/figs/hitruncube.png, id=17, 3011.25pt x 3019.28pt>
 ./sections/methods.tex:38: Missing number, treated as zero.
 <to be read again> 
@@ -444,9 +428,6 @@ File: sections/figs/hitruncube.png Graphic file (type png)
 <use sections/figs/hitruncube.png>
 Package pdftex.def Info: sections/figs/hitruncube.png used on input line 38.
 (pdftex.def)             Requested size: 213.39566pt x 213.95114pt.
-
-
-LaTeX Warning: Reference `fig:finger' on page 2 undefined on input line 62.
 
 <sections/figs/finger.pdf, id=18, 237.88875pt x 176.66pt>
 ./sections/methods.tex:65: Missing number, treated as zero.
@@ -544,14 +525,9 @@ File: sections/figs/raw_histograms.png Graphic file (type png)
 Package pdftex.def Info: sections/figs/raw_histograms.png used on input line 3.
 
 (pdftex.def)             Requested size: 213.39566pt x 619.52495pt.
-
-
-LaTeX Warning: Reference `fig:raw_histograms' on page 2 undefined on input line
- 11.
-
 ) (./sections/discussion.tex [2 <./sections/figs/feasibleactivation.png> <./sec
-tions/figs/hitruncube.png (PNG copy)> <./sections/figs/finger.pdf>])
-(./root.bbl [3 <./sections/figs/raw_histograms.png>])
+tions/figs/hitruncube.png (PNG copy)> <./sections/figs/finger.pdf>]) (./root.bb
+l [3 <./sections/figs/raw_histograms.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -565,35 +541,29 @@ Before submitting the final camera ready copy, remember to:
 
 [4
 
-] (./root.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./root.aux) ) 
 Here is how much of TeX's memory you used:
  3182 strings out of 493117
  46420 string characters out of 6135433
- 113575 words of memory out of 5000000
+ 113599 words of memory out of 5000000
  6554 multiletter control sequences out of 15000+600000
  67158 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,26p,1163b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utm
-bi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ./root.pdf (4 pages, 598377 bytes).
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on ./root.pdf (4 pages, 597491 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
