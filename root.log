@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,15 +373,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 
 
 ]
-<sections/figs/feasibleactivation.png, id=15, 568.1225pt x 512.91624pt>
+<sections/figs/feasibleactivation.png, id=15, 3011.25pt x 3011.25pt>
 File: sections/figs/feasibleactivation.png Graphic file (type png)
 
 <use sections/figs/feasibleactivation.png>
 Package pdftex.def Info: sections/figs/feasibleactivation.png used on input lin
 e 20.
-(pdftex.def)             Requested size: 126.47249pt x 114.18024pt.
+(pdftex.def)             Requested size: 126.47249pt x 126.44865pt.
 
-<sections/figs/hitruncube.png, id=17, 3011.25pt x 3019.28pt>
+<sections/figs/hitruncube.png, id=16, 3011.25pt x 3019.28pt>
 ./sections/methods.tex:38: Missing number, treated as zero.
 <to be read again> 
                    \relax 
@@ -429,7 +429,7 @@ File: sections/figs/hitruncube.png Graphic file (type png)
 Package pdftex.def Info: sections/figs/hitruncube.png used on input line 38.
 (pdftex.def)             Requested size: 213.39566pt x 213.95114pt.
 
-<sections/figs/finger.pdf, id=18, 237.88875pt x 176.66pt>
+<sections/figs/finger.pdf, id=17, 237.88875pt x 176.66pt>
 ./sections/methods.tex:65: Missing number, treated as zero.
 <to be read again> 
                    \relax 
@@ -477,7 +477,7 @@ File: sections/figs/finger.pdf Graphic file (type pdf)
 Package pdftex.def Info: sections/figs/finger.pdf used on input line 65.
 (pdftex.def)             Requested size: 213.39566pt x 158.47766pt.
 ) (./sections/results.tex
-<sections/figs/raw_histograms.png, id=19, 622.325pt x 1806.75pt>
+<sections/figs/raw_histograms.png, id=18, 622.325pt x 1806.75pt>
 ./sections/results.tex:3: Missing number, treated as zero.
 <to be read again> 
                    \relax 
@@ -525,10 +525,9 @@ File: sections/figs/raw_histograms.png Graphic file (type png)
 Package pdftex.def Info: sections/figs/raw_histograms.png used on input line 3.
 
 (pdftex.def)             Requested size: 213.39566pt x 619.52495pt.
- [2 <./sections/figs/feasibleactivation.png> <./sections/figs/hitruncube.png (P
-NG copy)> <./sections/figs/finger.pdf>])
-(./sections/discussion.tex) (./root.bbl [3 <./sections/figs/raw_histograms.png>
-])
+ [2 <./sections/figs/feasibleactivation.png (PNG copy)> <./sections/figs/hitrun
+cube.png (PNG copy)> <./sections/figs/finger.pdf>]) (./sections/discussion.tex)
+ (./root.bbl [3 <./sections/figs/raw_histograms.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -544,10 +543,10 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./root.aux) ) 
 Here is how much of TeX's memory you used:
- 3200 strings out of 493117
- 46619 string characters out of 6135433
- 113599 words of memory out of 5000000
- 6566 multiletter control sequences out of 15000+600000
+ 3201 strings out of 493117
+ 46627 string characters out of 6135433
+ 113602 words of memory out of 5000000
+ 6567 multiletter control sequences out of 15000+600000
  74832 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,26p,1163b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -564,10 +563,10 @@ onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on ./root.pdf (4 pages, 599199 bytes).
+Output written on ./root.pdf (4 pages, 755817 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
