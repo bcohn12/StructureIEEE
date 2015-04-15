@@ -14,16 +14,15 @@ Consider the following $1 \times 3$ fabricated example.
 &1 = \frac{10}{3}a_1 - \frac{53}{15}a_2 + 2a_3 \\
 &a_1, a_2, a_3 \in [0,1],
 \end{align*}
-the set of feasible activations is given by the shaded set in Figure \ref{fig_hr}.
+the set of feasible activations is given by the shaded set in Figure \ref{fig:fig_hr}.
 
 \begin{figure}[ht]
-  %\sidecaption
-\end{figure}
+  \label{fig:fig_hr}
    \begin{center}
     \includegraphics[width=0.25\textwidth]{sections/figs/feasibleactivation.png}
   \end{center}
   \caption{The feasible activation set for a  three-muscle system meeting one functional constraint is a polygon in $\mathbb{R}^3$. Note that muscle activations are assumed to be bounded between $0$ and $1$.}
-  \label{fig_hr}
+
 \end{figure}
 
 The Hit-and-Run walk on $P$ is defined as follows (it works analogously for any convex body). 
@@ -35,13 +34,9 @@ The Hit-and-Run walk on $P$ is defined as follows (it works analogously for any 
 \item Repeat from $(b)$ the above steps with the new point as the starting point .
 \end{enumerate}
 
-How many steps are necessary to reach a uniformly at random point in the polytope? For convex polygons in higher dimensions, experimental results suggest that $\mathcal{O}(n)$ steps of the Hit-and-Run algorithm are sufficient. In particular Emiris and Fisikopoulos paper suggest that $(10 + 10\frac{n})n$ steps are enough to have a close to uniform distribution \cite{emiris2013efficient}.
-Therfore for given output force we execute the Hit-and-Run algorithm 1000 times on 100 points. The experimental results propose that those 1000 points are uniformly distributed on the polygon.
-
-\subsection{Starting Point}
 To find a starting point in 
 \[\textbf{f} = A\textbf{a}, \textbf{a} \in [0,1]^n,\]
-we only need to find a feasible activation vector. For the hit and run algorithm to mix faster, we do not want the starting point to be in a vertex of the activation space. We use the following standard trick using slack variables $\epsilon_i$.
+we only need to find a feasible activation vector. For the Hit-and-Run algorithm to mix faster, we do not want the starting point to be in a vertex of the activation space. We use the following standard trick with slack variables $\epsilon_i$.
 
 \begin{equation}\label{eq:LP_r}
 \begin{array}{lrcl}
@@ -52,10 +47,23 @@ we only need to find a feasible activation vector. For the hit and run algorithm
 \end{array}
 \end{equation}
 
+How many steps are necessary to reach a uniformly at random point in the polytope? For convex polygons in higher dimensions c. $40$, experimental results suggest that $\mathcal{O}(n)$ steps of the Hit-and-Run algorithm are sufficient. In particular Emiris and Fisikopoulos paper suggest that $(10 + 10\frac{n})n$ steps are enough to have a close to uniform distribution \cite{emiris2013efficient}.
+In the index finger model we executed the Hit-and-Run algorithm $100,000$ times.
+
 \subsection{Realistic index finger model}
 \label{ss:finger}
-We began with an index finger of a healthy human (male) right hand, which was taken from [JOB 1998]. The hand size, finger lengths, and weight was []. Experimental forces from []. 
-The moment arm matrix, $R$, which contains the leverage of each tendon's insertion points across each joint, was measured by doing [], [] ,and then [].
-The Jacobian, $J$, which represents the effect of rotation at each DOF on each component of endpoint wrench [cite jacobian usage], was measured with a [], by [], with precision of $\pm x$.
-The force-naught vector, $F_0$, which contains the tendon force at maximal isometric contration (MIC)[cite method used] for each muscle, was taken in the [same or different] posture, with a [] measuring device, with precision of $\pm x$.
+We used our published model in \cite{Valero-Cuevas1998Large} to find matrix $A \in \mathbb{R}^{4 \times 7}$, where $\textbf{a} \in \mathbb{R}^7$ and the four degrees of freedom were ad-abduction and flexion-extension at the metacarpophalangeal joint, and flexion-extension at the proximal and distal interphalangeal joints. The force direction we simulated is that in the palmar direction in the posture shown in Figure \ref{fig:finger}.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=7.5cm\textwidth]{sections/figs/finger.pdf}
+\caption{The index finger model simulated 50\% of maximal force production in the palmar direction. Adapted from \cite{Valero-Cuevas1998Large}.}
+\label{fig:finger}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.0\textwidth]{sections/figs/raw_histograms.png}
+\caption{Spatial distribution of muscle activations in the 7-dimensional feasible activation set to produce force in the palmar direction.}
+\label{fig:raw_histograms.png}
+\end{figure}
 
