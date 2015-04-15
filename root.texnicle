@@ -65,7 +65,7 @@
         <attribute name="name" type="string">root</attribute>
         <attribute name="folder" type="string">/Users/valero/dev/StructureIEEE</attribute>
         <relationship name="mainfile" type="1/1" destination="FILE" idrefs="z111"></relationship>
-        <relationship name="selected" type="1/1" destination="FILE" idrefs="z106"></relationship>
+        <relationship name="selected" type="1/1" destination="FILE" idrefs="z111"></relationship>
         <relationship name="settings" type="1/1" destination="SETTINGS" idrefs="z103"></relationship>
         <relationship name="uisettings" type="1/1" destination="UISETTINGS" idrefs="z104"></relationship>
         <relationship name="items" type="0/0" destination="PROJECTITEM" idrefs="z105 z106 z110 z111 z108 z109 z107"></relationship>
@@ -96,7 +96,7 @@
         <relationship name="project" type="1/1" destination="PROJECT" idrefs="z102"></relationship>
     </object>
     <object type="TEXFILE" id="z105">
-        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 471}}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 569}}</attribute>
         <attribute name="cursor" type="string">{10, 12}</attribute>
         <attribute name="wasopen" type="bool">4</attribute>
         <attribute name="lasteditdate" type="date">450766434.81459099054336547852</attribute>
@@ -114,12 +114,12 @@
         <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
     </object>
     <object type="TEXFILE" id="z106">
-        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 251}}</attribute>
-        <attribute name="cursor" type="string">{2, 0}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 569}}</attribute>
+        <attribute name="cursor" type="string">{10, 12}</attribute>
         <attribute name="wasopen" type="bool">0</attribute>
-        <attribute name="lasteditdate" type="date">450768869.36630600690841674805</attribute>
+        <attribute name="lasteditdate" type="date">450769007.75512397289276123047</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">450768870.64780002832412719727</attribute>
+        <attribute name="fileloaddate" type="date">450769010.87484800815582275391</attribute>
         <attribute name="extension" type="string">tex</attribute>
         <attribute name="sortindex" type="int32">4</attribute>
         <attribute name="name" type="string">results.tex</attribute>
@@ -140,8 +140,8 @@
         <relationship name="children" type="0/0" destination="PROJECTITEM" idrefs="z108 z110 z109 z106 z105"></relationship>
     </object>
     <object type="TEXFILE" id="z108">
-        <attribute name="visiblerect" type="string">{{0, 814}, {1209, 471}}</attribute>
-        <attribute name="cursor" type="string">{4902, 0}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 716}, {1209, 569}}</attribute>
+        <attribute name="cursor" type="string">{3646, 0}</attribute>
         <attribute name="wasopen" type="bool">5</attribute>
         <attribute name="lasteditdate" type="date">450768381.83047097921371459961</attribute>
         <attribute name="istext" type="bool">1</attribute>
@@ -158,7 +158,7 @@
         <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
     </object>
     <object type="TEXFILE" id="z109">
-        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 471}}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 569}}</attribute>
         <attribute name="cursor" type="string">{665, 0}</attribute>
         <attribute name="wasopen" type="bool">3</attribute>
         <attribute name="lasteditdate" type="date">450766432.92041897773742675781</attribute>
@@ -176,12 +176,12 @@
         <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
     </object>
     <object type="TEXFILE" id="z110">
-        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 471}}</attribute>
-        <attribute name="cursor" type="string">{19, 0}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 569}}</attribute>
+        <attribute name="cursor" type="string">{706, 0}</attribute>
         <attribute name="wasopen" type="bool">1</attribute>
-        <attribute name="lasteditdate" type="date">450766557.66635900735855102539</attribute>
+        <attribute name="lasteditdate" type="date">450769407.16099399328231811523</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">450767258.86790597438812255859</attribute>
+        <attribute name="fileloaddate" type="date">450769408.62134701013565063477</attribute>
         <attribute name="extension" type="string">tex</attribute>
         <attribute name="sortindex" type="int32">2</attribute>
         <attribute name="name" type="string">discussion.tex</attribute>
@@ -194,12 +194,12 @@
         <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
     </object>
     <object type="TEXFILE" id="z111">
-        <attribute name="visiblerect" type="string">{{0, 0}, {1209, 471}}</attribute>
-        <attribute name="cursor" type="string">{1348, 0}</attribute>
+        <attribute name="visiblerect" type="string">{{0, 647}, {1209, 569}}</attribute>
+        <attribute name="cursor" type="string">{2309, 2484}</attribute>
         <attribute name="wasopen" type="bool">2</attribute>
-        <attribute name="lasteditdate" type="date">450768512.31120699644088745117</attribute>
+        <attribute name="lasteditdate" type="date">450769572.53239297866821289062</attribute>
         <attribute name="istext" type="bool">1</attribute>
-        <attribute name="fileloaddate" type="date">450768515.25041800737380981445</attribute>
+        <attribute name="fileloaddate" type="date">450769604.59825801849365234375</attribute>
         <attribute name="extension" type="string">tex</attribute>
         <attribute name="sortindex" type="int32">6</attribute>
         <attribute name="name" type="string">root.tex</attribute>
