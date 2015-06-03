@@ -1,8 +1,7 @@
 
 
 #Structure of the set of feasible neural commands for complex motor tasks
-##Francisco Valero-Cuevas*, Brian
-Cohn, May Szedlak, Bernd Gärtner, Komei Fukuda
+##Francisco Valero-Cuevas*, Brian Cohn, May Szedlak, Bernd Gärtner, Komei Fukuda
 
 Accepted for presentation at the 37th Annual
 International Conference of the IEEE Engineering in
