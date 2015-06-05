@@ -1,13 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 23:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.3)  5 JUN 2015 14:39
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**root
-(./root.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(./ieeeconf.cls
+**C:/Users/B/Documents/GitHub/StructureIEEE/root.tex
+(C:/Users/B/Documents/GitHub/StructureIEEE/root.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\B\Documents\GitHub\StructureIEEE\ieeeconf.cls
 
 LaTeX Warning: You have requested document class `ieeeconf',
                but the document class provides `cssconf'.
@@ -20,7 +26,7 @@ Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \@IEEEnormalsizefontbaselineskip=\skip41
@@ -104,36 +110,36 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 )
 ** ATTENTION: Overriding command lockouts (line 9).
 ** ATTENTION: Overriding IEEE standard margins (line 12).
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/epsfig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 \Gin@req@height=\dimen113
@@ -142,7 +148,7 @@ Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \epsfxsize=\dimen115
 \epsfysize=\dimen116
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/mathptmx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -178,27 +184,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/times.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen117
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen118
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
@@ -239,19 +245,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(./root.aux)
-\openout1 = `root.aux'.
-
+(C:\Users\B\Documents\GitHub\StructureIEEE\root.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
@@ -264,7 +268,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
- (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen126
@@ -277,77 +282,29 @@ LaTeX Font Info:    ... okay on input line 38.
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks22
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 42.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 42
 .
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 42
 .
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 42
 .
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 42
 .
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.14006> not available
@@ -362,18 +319,20 @@ Underfull \hbox (badness 2564) in paragraph at lines 42--42
  []
 
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-(./sections/abstract.tex) (./sections/introduction.tex
+(C:\Users\B\Documents\GitHub\StructureIEEE\sections/abstract.tex)
+(C:\Users\B\Documents\GitHub\StructureIEEE\sections/introduction.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-) (./sections/methods.tex [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex
-/updmap/pdftex.map}
+)
+(C:\Users\B\Documents\GitHub\StructureIEEE\sections/methods.tex [1{C:/ProgramDa
+ta/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-<sections/figs/feasibleactivation.png, id=15, 3011.25pt x 3011.25pt>
+<sections/figs/feasibleactivation.png, id=14, 3011.25pt x 3011.25pt>
 File: sections/figs/feasibleactivation.png Graphic file (type png)
 
 <use sections/figs/feasibleactivation.png>
@@ -381,153 +340,35 @@ Package pdftex.def Info: sections/figs/feasibleactivation.png used on input lin
 e 18.
 (pdftex.def)             Requested size: 126.47249pt x 126.44865pt.
 
-<sections/figs/hitruncube.png, id=16, 3011.25pt x 3019.28pt>
-./sections/methods.tex:36: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.36 ...m\textwidth]{sections/figs/hitruncube.png}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./sections/methods.tex:36: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.36 ...m\textwidth]{sections/figs/hitruncube.png}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./sections/methods.tex:36: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.36 ...m\textwidth]{sections/figs/hitruncube.png}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./sections/methods.tex:36: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.36 ...m\textwidth]{sections/figs/hitruncube.png}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<sections/figs/hitruncube.png, id=15, 3011.25pt x 3019.28pt>
 File: sections/figs/hitruncube.png Graphic file (type png)
+
 <use sections/figs/hitruncube.png>
 Package pdftex.def Info: sections/figs/hitruncube.png used on input line 36.
 (pdftex.def)             Requested size: 213.39566pt x 213.95114pt.
 
-<sections/figs/finger.pdf, id=17, 237.88875pt x 176.66pt>
-./sections/methods.tex:63: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.63 ...7.5cm\textwidth]{sections/figs/finger.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./sections/methods.tex:63: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.63 ...7.5cm\textwidth]{sections/figs/finger.pdf}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./sections/methods.tex:63: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.63 ...7.5cm\textwidth]{sections/figs/finger.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./sections/methods.tex:63: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.63 ...7.5cm\textwidth]{sections/figs/finger.pdf}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<sections/figs/finger.pdf, id=16, 237.88875pt x 176.66pt>
 File: sections/figs/finger.pdf Graphic file (type pdf)
+
 <use sections/figs/finger.pdf>
 Package pdftex.def Info: sections/figs/finger.pdf used on input line 63.
 (pdftex.def)             Requested size: 213.39566pt x 158.47766pt.
-) (./sections/results.tex
-<sections/figs/raw_histograms.png, id=18, 622.325pt x 1806.75pt>
-./sections/results.tex:3: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.3 ...extwidth]{sections/figs/raw_histograms.png}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./sections/results.tex:3: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.3 ...extwidth]{sections/figs/raw_histograms.png}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./sections/results.tex:3: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.3 ...extwidth]{sections/figs/raw_histograms.png}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./sections/results.tex:3: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.3 ...extwidth]{sections/figs/raw_histograms.png}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+)
+(C:\Users\B\Documents\GitHub\StructureIEEE\sections/results.tex
+<sections/figs/raw_histograms.png, id=17, 622.325pt x 1806.75pt>
 File: sections/figs/raw_histograms.png Graphic file (type png)
+
 <use sections/figs/raw_histograms.png>
 Package pdftex.def Info: sections/figs/raw_histograms.png used on input line 3.
 
 (pdftex.def)             Requested size: 213.39566pt x 619.52495pt.
- [2 <./sections/figs/feasibleactivation.png (PNG copy)> <./sections/figs/hitrun
-cube.png (PNG copy)> <./sections/figs/finger.pdf>]) (./sections/discussion.tex)
- (./root.bbl [3 <./sections/figs/raw_histograms.png>])
+ [2 <C:/Users/B/Documents/GitHub/StructureIEEE/sections/figs/feasibleactivation
+.png (PNG copy)> <C:/Users/B/Documents/GitHub/StructureIEEE/sections/figs/hitru
+ncube.png (PNG copy)> <C:/Users/B/Documents/GitHub/StructureIEEE/sections/figs/
+finger.pdf>])
+(C:\Users\B\Documents\GitHub\StructureIEEE\sections/discussion.tex)
+(C:\Users\B\Documents\GitHub\StructureIEEE\root.bbl [3 <C:/Users/B/Documents/Gi
+tHub/StructureIEEE/sections/figs/raw_histograms.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -541,32 +382,31 @@ Before submitting the final camera ready copy, remember to:
 
 [4
 
-] (./root.aux) ) 
+] (C:\Users\B\Documents\GitHub\StructureIEEE\root.aux) ) 
 Here is how much of TeX's memory you used:
- 3201 strings out of 493117
- 46627 string characters out of 6135433
- 112602 words of memory out of 5000000
- 6567 multiletter control sequences out of 15000+600000
- 74832 words of font info for 164 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,9n,26p,1163b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/urw/times/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on ./root.pdf (4 pages, 755772 bytes).
+ 2844 strings out of 493921
+ 40773 string characters out of 3144889
+ 98673 words of memory out of 3000000
+ 6072 multiletter control sequences out of 15000+200000
+ 74832 words of font info for 164 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 30i,9n,26p,1209b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)
+/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/hoekwater/rsfs/rsfs10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/sym
+bol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on root.pdf (4 pages, 765281 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
