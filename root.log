@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.3)  5 JUN 2015 14:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.3)  7 JUN 2015 17:57
 entering extended mode
 **C:/Users/B/Documents/GitHub/StructureIEEE/root.tex
 (C:/Users/B/Documents/GitHub/StructureIEEE/root.tex
@@ -390,7 +390,7 @@ Here is how much of TeX's memory you used:
  6072 multiletter control sequences out of 15000+200000
  74832 words of font info for 164 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 30i,9n,26p,1209b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,9n,26p,785b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)
 /MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
@@ -404,7 +404,7 @@ bol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on root.pdf (4 pages, 765283 bytes).
+Output written on root.pdf (4 pages, 765393 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
