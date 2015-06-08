@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.3)  7 JUN 2015 18:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.3)  7 JUN 2015 18:45
 entering extended mode
 **C:/Users/B/Documents/GitHub/StructureIEEE/root.tex
 (C:/Users/B/Documents/GitHub/StructureIEEE/root.tex
@@ -351,7 +351,7 @@ Package pdftex.def Info: sections/figs/hitruncube.png used on input line 36.
 File: sections/figs/finger.pdf Graphic file (type pdf)
 
 <use sections/figs/finger.pdf>
-Package pdftex.def Info: sections/figs/finger.pdf used on input line 63.
+Package pdftex.def Info: sections/figs/finger.pdf used on input line 64.
 (pdftex.def)             Requested size: 213.39566pt x 158.47766pt.
 )
 (C:\Users\B\Documents\GitHub\StructureIEEE\sections/results.tex
@@ -404,7 +404,7 @@ bol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on root.pdf (4 pages, 765702 bytes).
+Output written on root.pdf (4 pages, 765744 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
