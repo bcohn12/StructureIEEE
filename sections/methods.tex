@@ -52,7 +52,8 @@ we only need to find a feasible activation vector. For the Hit-and-Run algorithm
 \end{array}
 \end{equation}
 
-How many points are necessary to reach a uniform distribution across the polytope? For convex polygons in higher dimensions c. $40$, experimental results suggest that $\mathcal{O}(n)$ steps of the Hit-and-Run algorithm are sufficient. In particular Emiris and Fisikopoulos paper suggest that $(10 + \frac{10}{n})n$ steps are enough to converge upon the uniform distribution \cite{emiris2013efficient}.
+How many points are necessary to reach a uniform distribution across the polytope?
+For convex polygons in higher dimensions (over 40 dimensional), experimental results suggest that $\mathcal{O}(n)$ steps of the Hit-and-Run algorithm are sufficient. In particular Emiris and Fisikopoulos paper suggest that $(10 + \frac{10}{n})n$ steps are enough to converge upon the uniform distribution \cite{emiris2013efficient}.
 In the index finger model we executed the Hit-and-Run algorithm $1,000,000$ times, selecting only every 100th point.
 
 \subsection{Realistic index finger model}
