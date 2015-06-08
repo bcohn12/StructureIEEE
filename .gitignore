@@ -4,3 +4,7 @@ sections/figs/Thumbs.db
 root.pdf
 root.log
 root.synctex.gz
+
+*.texnicle
+root.log
+root.blg
