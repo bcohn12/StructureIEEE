@@ -1,9 +1,11 @@
 \begin{abstract}
-The brain must select its control strategies among an infinite set of possibilities, thereby researchers believe that it must be solving an optimization problem. 
-While this set of feasible solutions is infinite and lies in high dimensions, it is bounded by kinematic, neuromuscular, and anatomical constraints, within which the brain must select optimal solutions. That is, the set of feasible activations is well structured. However, to date there is no method to describe and quantify the structure of these high-dimensional solution spaces. Bounding boxes or dimensionality reduction algorithms that do not capture their detailed structure. 
-We present a novel approach based on the well-known Hit-and-Run algorithm in computational geometry to extract the structure of the feasible activations that produce 50\% of maximal fingertip force.
-We use a realistic model of a human index finger with 7 muscles, and 4DOFs. For a given static force vector at the endpoint, the feasible activation space is a 3D convex polytope, embedded in the 7D unit cube.
-It is known that explicitly computing the volume of this polytope can become too computationally complex in many instances. However, our algorithm was able to produce $1,000,000$  random points to uniformly sample from the feasible activation space. 
-The computed  distribution of activation across  muscles shed light onto the structure of these solution spaces---rather than simply exploring their maximal and minimal values. 
-Although this paper presents a 7 dimensional case of the index finger, our methods extend to systems with up to at least 40 muscles. This will allow our motor control community  to understand the  distributions of feasible muscle activations, which will provide important contextual information into the learning, optimization and adaptation of motor patterns in future research.
+The brain must select its control strategies among an infinite set of possibilities; researchers believe that it must be solving an optimization problem. 
+While this set of feasible solutions is infinite and lies in high dimensions, it is bounded by kinematic, neuromuscular, and anatomical constraints, within which the brain must select optimal solutions. That is, the set of feasible activations is well structured. However, to date there is no method to describe and quantify the structure of these high-dimensional solution spaces.
+Bounding boxes or dimensionality reduction algorithms do not capture their detailed structure. 
+We present a novel approach based on the well-known Hit-and-Run algorithm in computational geometry to extract the structure of the feasible activations capable of producing 50\% of maximal fingertip force in a specific direction.
+We use a realistic model of a human index finger with 7 muscles, and 4 DOFs. For a given static force vector at the endpoint, the feasible activation space is a 3D convex polytope, embedded in the 7D unit cube.
+It is known that explicitly computing the volume of this polytope can become too computationally complex in many instances.
+However, our algorithm was able to sample $1,000,000$  uniform at random points from the feasible activation space. 
+The computed  distribution of activation across  muscles sheds light onto the structure of these solution spaces---rather than simply exploring their maximal and minimal values. 
+Although this paper presents a 7 dimensional case of the index finger, our methods extend to systems with at least 40 muscles. This will allow our motor control community  to understand the  distributions of feasible muscle activations, providing important contextual information into learning, optimization and adaptation of motor patterns in future research.
 \end{abstract}
